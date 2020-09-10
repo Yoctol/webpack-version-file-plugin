@@ -1,6 +1,6 @@
 {
-  "name": "webpack-version-file-plugin",
-  "version": "0.4.0",
+  "name": "@yoctol/webpack-version-file-plugin",
+  "version": "0.1.0",
   "description": "Generates a file with your app's package.josn information and build date",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mvanede/webpack-version-file-plugin.git"
+    "url": "https://github.com/yoctol/webpack-version-file-plugin.git"
   },
   "keywords": [
     "version",
@@ -17,18 +17,18 @@
     "date"
   ],
   "author": {
-    "name": "Mirko van Ede",
-    "email": "info@mirkovanede.nl"
+    "name": "Yoctol Info Inc.",
+    "email": "dev@yoctol.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mvanede/webpack-version-file-plugin/issues"
+    "url": "https://github.com/yoctol/webpack-version-file-plugin/issues"
   },
-  "homepage": "https://github.com/mvanede/webpack-version-file-plugin",
+  "homepage": "https://github.com/yoctol/webpack-version-file-plugin",
   "dependencies": {
+    "chalk": "^4.1.0",
     "ejs": "~> 2.5.5",
-    "underscore": "~1.6.0",
-    "fs": "latest"
+    "underscore": "~1.11.0"
   },
   "devDependencies": {
     "mocha": "~1.18.2"
